@@ -64,6 +64,7 @@ VITE_API_TIMEOUT=5000
 В проекте используется Husky для автоматизации Git-хуков.
 
 - pre-commit — запускает `eslint --fix` и `prettier --write`, чтобы код был в едином стиле.
+- pre-push - запускает `npm run test`
 
 ### Установка Git hooks
 После клонирования репозитория нужно активировать husky:
