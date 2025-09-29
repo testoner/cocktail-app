@@ -1,0 +1,78 @@
+// ==========================
+// COLORS
+// ==========================
+$color-primary: #1e88e5;
+$color-secondary: #ffb300;
+$color-success: #43a047;
+$color-danger: #e53935;
+$color-warning: #fdd835;
+$color-info: #00acc1;
+$color-light: #f5f5f5;
+$color-dark: #212121;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray: #000000ac;
+
+// ==========================
+// FONT SIZES
+// ==========================
+$font-size-xxs: 0.5rem;
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-md: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-xxl: 1.5rem; // 24px
+
+// ==========================
+// SPACING / GAPS
+// ==========================
+$spacing-xxs: 0.25rem; // 4px
+$spacing-xs: 0.5rem; // 8px
+$spacing-sm: 0.75rem; // 12px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-xxl: 3rem; // 48px
+$spacing-3xl: 6rem;
+
+// ==========================
+// BREAKPOINTS
+// ==========================
+$breakpoint-xs: 360px; // mobile
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px; // tablet
+$breakpoint-lg: 1024px; // dekstop
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1440px;
+
+// ==========================
+// MIXINS
+// ==========================
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == xs {
+    @media (max-width: $breakpoint-xs) {
+      @content;
+    }
+  } @else if $breakpoint == sm {
+    @media (max-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media (max-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media (max-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $breakpoint == xl {
+    @media (max-width: $breakpoint-xl) {
+      @content;
+    }
+  } @else if $breakpoint == xxl {
+    @media (max-width: $breakpoint-xxl) {
+      @content;
+    }
+  }
+}
