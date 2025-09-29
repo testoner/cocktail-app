@@ -18,18 +18,18 @@
 
 ## 📂 Архитектура проекта
 
-src/
-├── api/ # Логика API (axios instance + эндпоинты)
-├── assets/ # Стили, шрифты, картинки
-├── components/ # Переиспользуемые UI-компоненты
-├── composables/ # Кастомные хуки (useFetch, useWindowSize и др.)
-├── features/ # Фичи (Navigation, CocktailCard и т.д.)
-├── layouts/ # Общие шаблоны страниц (MainLayout и др.)
-├── pages/ # Страницы (CocktailPage, NotFoundPage и др.)
-├── router/ # Vue Router
-├── stores/ # Pinia store (CocktailStore)
-├── utils/ # Утилиты (pickValuesByKey и др.)
-└── main.ts # Точка входа
+src/\
+├── api/ # Логика API (axios instance + эндпоинты)\
+├── assets/ # Стили, шрифты, картинки\
+├── components/ # Переиспользуемые UI-компоненты\
+├── composables/ # Кастомные хуки (useFetch, useWindowSize и др.)\
+├── features/ # Фичи (Navigation, CocktailCard и т.д.)\
+├── layouts/ # Общие шаблоны страниц (MainLayout и др.)\
+├── pages/ # Страницы (CocktailPage, NotFoundPage и др.)\
+├── router/ # Vue Router\
+├── stores/ # Pinia store (CocktailStore)\
+├── utils/ # Утилиты (pickValuesByKey и др.)\
+└── main.ts # Точка входа\
 
 ## ⚙️ Установка и запуск
 
